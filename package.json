@@ -1,0 +1,31 @@
+{
+  "name": "api-pdfReader",
+  "version": "1.0.0",
+  "description": "api for search within pdfs, the invoice code for invoices.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dz7-Telecom/api-pdfReader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dz7-Telecom/api-pdfReader/issues"
+  },
+  "homepage": "https://github.com/Dz7-Telecom/api-pdfReader#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pdfreader": "^1.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
